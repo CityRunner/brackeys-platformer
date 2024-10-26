@@ -224,6 +224,7 @@ unique_name_in_owner = true
 script = ExtResource("1_fwddh")
 
 [node name="ScoreLabel" type="Label" parent="GameManager"]
+z_index = 1
 offset_left = 493.0
 offset_top = -141.0
 offset_right = 592.0
@@ -252,6 +253,7 @@ position = Vector2(40, 122)
 shape = SubResource("WorldBoundaryShape2D_8sqhg")
 
 [node name="Slime" parent="." instance=ExtResource("6_tktum")]
+z_index = 5
 position = Vector2(477, 55)
 
 [node name="TileMaps" type="Node" parent="."]
