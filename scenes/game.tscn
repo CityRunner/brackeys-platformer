@@ -242,6 +242,9 @@ position = Vector2(40, 122)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_8sqhg")
 
+[node name="Slime" parent="." instance=ExtResource("6_tktum")]
+position = Vector2(477, 55)
+
 [node name="Coins" type="Node" parent="."]
 
 [node name="Coin" parent="Coins" instance=ExtResource("4_a4lmu")]
@@ -285,36 +288,34 @@ libraries = {
 }
 autoplay = "move"
 
-[node name="Slime" parent="." instance=ExtResource("6_tktum")]
-position = Vector2(477, 55)
+[node name="Labels" type="Node" parent="."]
 
-[node name="Label" type="Label" parent="."]
-offset_left = -158.0
-offset_top = 71.0
-offset_right = -67.0
-offset_bottom = 79.0
+[node name="Label" type="Label" parent="Labels"]
+offset_left = -126.0
+offset_top = 87.0
+offset_right = -35.0
+offset_bottom = 95.0
 theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
 theme_override_fonts/font = ExtResource("7_dogdw")
 theme_override_font_sizes/font_size = 8
 text = "Space to jump"
 
-[node name="Label2" type="Label" parent="."]
-offset_left = 323.0
-offset_top = 60.0
-offset_right = 414.0
-offset_bottom = 68.0
+[node name="Label2" type="Label" parent="Labels"]
+offset_left = 355.0
+offset_top = 71.0
+offset_right = 451.0
+offset_bottom = 79.0
 theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
 theme_override_fonts/font = ExtResource("7_dogdw")
 theme_override_font_sizes/font_size = 8
-text = "Failing hurts"
+text = "Failing hurts..."
 
-[node name="Label3" type="Label" parent="."]
-offset_left = 643.0
-offset_top = -61.0
-offset_right = 734.0
-offset_bottom = -53.0
+[node name="Label3" type="Label" parent="Labels"]
+offset_left = 679.0
+offset_top = -49.0
+offset_right = 773.0
+offset_bottom = -41.0
 theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
 theme_override_fonts/font = ExtResource("7_dogdw")
 theme_override_font_sizes/font_size = 8
-text = "Almost there
-"
+text = "Almost there..."
