@@ -226,9 +226,9 @@ script = ExtResource("1_fwddh")
 [node name="ScoreLabel" type="Label" parent="GameManager"]
 z_index = 1
 offset_left = 493.0
-offset_top = -141.0
+offset_top = -142.0
 offset_right = 592.0
-offset_bottom = -122.0
+offset_bottom = -123.0
 theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
 theme_override_fonts/font = ExtResource("2_42pkx")
 theme_override_font_sizes/font_size = 8
