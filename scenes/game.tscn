@@ -272,7 +272,7 @@ tile_set = SubResource("TileSet_xcx5v")
 
 [node name="Coins" type="Node" parent="."]
 
-[node name="Coin" parent="Coins" instance=ExtResource("4_a4lmu")]
+[node name="Coin1" parent="Coins" instance=ExtResource("4_a4lmu")]
 position = Vector2(52, 71)
 
 [node name="Coin2" parent="Coins" instance=ExtResource("4_a4lmu")]
@@ -288,16 +288,25 @@ position = Vector2(86, -41)
 position = Vector2(485, 37)
 
 [node name="Coin6" parent="Coins" instance=ExtResource("4_a4lmu")]
-position = Vector2(734, -23)
+position = Vector2(400, 4)
 
 [node name="Coin7" parent="Coins" instance=ExtResource("4_a4lmu")]
-position = Vector2(757, -21)
+position = Vector2(734, -23)
 
 [node name="Coin8" parent="Coins" instance=ExtResource("4_a4lmu")]
-position = Vector2(780, -23)
+position = Vector2(757, -21)
 
 [node name="Coin9" parent="Coins" instance=ExtResource("4_a4lmu")]
-position = Vector2(565, -107)
+position = Vector2(780, -23)
+
+[node name="Coin10" parent="Coins" instance=ExtResource("4_a4lmu")]
+position = Vector2(557, -107)
+
+[node name="Coin11" parent="Coins" instance=ExtResource("4_a4lmu")]
+position = Vector2(541, -107)
+
+[node name="Coin12" parent="Coins" instance=ExtResource("4_a4lmu")]
+position = Vector2(526, -107)
 
 [node name="Platforms" type="Node" parent="."]
 
